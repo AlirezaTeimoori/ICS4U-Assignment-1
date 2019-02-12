@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - emc2",
+            "request": "launch",
+            "mainClass": "emc2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - blowup",
+            "request": "launch",
+            "mainClass": "blowup"
+        }
+    ]
+}
