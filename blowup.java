@@ -34,7 +34,7 @@ public class blowup{
                 try {
                     charNext = input.charAt(counter+1); // for more convenience :D
 
-                    if (!Character.isDigit(charNext)){ // If the next character is not a digit
+                    if (!Character.isDigit(charNext) && charNext != ' '){ // If the next character is not a digit
                         // System.out.println(" --- but this is not a digit: " + charNext); // Notifies that the next character is not a digit
 
                         for (int count = 0; count < charValue; count++){ // for charValue times, adds the next character to the output
